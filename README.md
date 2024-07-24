@@ -1,6 +1,6 @@
 # python base
 
-### Direnv
+### (1) Direnv
 
 To create environment variables isolated to the scope of your directory, 
 the `direnv` CLI provides a convenient mechanism for doing so. Start by following the
@@ -16,8 +16,13 @@ touch ./ .envrc
 direnv allow
 ```
 
-### Python package management CLI ([uv](https://pypi.org/project/uv/))
+### (2) Python package management CLI ([uv](https://pypi.org/project/uv/))
 
-Fast python package installer and resolver. Used to manage dependencies within a virtual
-environment. Create the virtual environment using the `uv venv` command. Activate the
-virtual environment using `source .venv/bin/activate`.
+Fast python package installer and resolver used to manage dependencies within a virtual
+environment.
+
+**Create and activate a virtual environment using the following command(s):**
+
+```zsh
+uv venv & source .venv/bin/activate
+```
