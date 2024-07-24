@@ -15,3 +15,9 @@ touch ./ .envrc
 ```zsh
 direnv allow
 ```
+
+### Python package management CLI ([uv](https://pypi.org/project/uv/))
+
+Fast python package installer and resolver. Used to manage dependencies within a virtual
+environment. Create the virtual environment using the `uv venv` command. Activate the
+virtual environment using `source .venv/bin/activate`.
