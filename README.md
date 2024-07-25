@@ -26,3 +26,13 @@ environment.
 ```zsh
 uv venv & source .venv/bin/activate
 ```
+
+### (3) Additional Notes
+
+**Useful aliases:**
+
+```text
+alias uvfreeze="uv pip freeze | uv pip compile - -o requirements.txt"
+alias uvsync="uv pip sync requirements.txt"
+alias djrun="python manage.py runserver"
+```
